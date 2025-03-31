@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.count {
+  font-size: 3rem;
+
+}
+
+button{
+  background-color: rgb(209, 117, 19);
+  color:white;
+  font-size: 1rem;font-family: monospace;
+  padding: 10px 16px;
+  border: 1px solid rgb(209, 117, 19);
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: rgb(188, 131, 70);;
+}
+
+
+
+.inDecrement{
+  margin: 16px 8px;
+}
+ #changeBy{
+  height: 2rem;
+  width: 5rem;
+  font-size: 1rem;
+  padding: 10px;
+  
+
+}
+
