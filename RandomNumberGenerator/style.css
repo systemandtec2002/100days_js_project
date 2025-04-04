@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border:0.1rem solid #000;
+  text-align: center;
+}
+
+.container h1{
+  margin-bottom: 1rem;
+
+}
+
+span{
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  color:orangered;
+}
+
+.container button{
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+background-color: black;
+color:white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
